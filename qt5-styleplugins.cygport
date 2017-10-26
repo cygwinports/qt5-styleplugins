@@ -1,0 +1,15 @@
+GIT_URI="git://code.qt.io/qt/qtstyleplugins.git"
+inherit git qt5-qmake
+
+NAME="qt5-styleplugins"
+VERSION=5.0.0
+RELEASE=1.20170311git
+CATEGORY="X11"
+SUMMARY="Qt C++ application framework (extra styles)"
+DESCRIPTION="Qt is a cross-platform application framework for desktop and
+embedded development. Qt enables programmers to create advanced GUI
+applications once and deploy them to Windows, Mac OS X and Linux without
+rewriting the source code. Companies using Qt can leverage software
+investments made on one platform across many others."
+HOMEPAGE="https://code.qt.io/cgit/qt/qtstyleplugins.git"
+#SRC_URI="https://download.qt.io/community_releases/additional_qt_src_pkgs/qtstyleplugins-${VERSION}.tar.gz"
